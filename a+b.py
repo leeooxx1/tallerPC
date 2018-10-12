@@ -1,0 +1,5 @@
+a=raw_input()
+x,y=a.split(" ")
+h=int(x)
+j=int(y)
+print(h+j)
