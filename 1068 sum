@@ -1,0 +1,12 @@
+#The input consists of a single integer N that is not greater than 10000 by it's absolute value
+#Output: Write a single integer number that is the sum of all integer numbers lying between 1 and N inclusive.
+x=int(raw_input())
+y=0
+if x <= 10000:
+	if x >= -10000:
+		if x=0:
+			y=1
+		elif x>0 :	
+			while y <= x:
+				y= y + 1
+				z= 1 + y
